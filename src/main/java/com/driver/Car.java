@@ -1,7 +1,7 @@
 package com.driver;
 
 public class Car extends Vehicle {
-    private int wheels;
+   private int wheels;
     private String type;
     private int doors;
     private int gears;
@@ -9,7 +9,7 @@ public class Car extends Vehicle {
     private int currentGear;
     private int seats;
 
-   public int getWheels() {
+    public int getWheels() {
 
         return wheels;
     }
@@ -102,5 +102,5 @@ public class Car extends Vehicle {
 
         System.out.println("changeSpeed method called - The speed is changed to: " + newSpeed + ", and the direction is changed to: " + newDirection + " degrees");
     }
-
 }
+        
